@@ -16,7 +16,7 @@ def main():
             if event.type == pg.QUIT:
                 running = False
 
-        # RENDER YOUR GAME HERE
+        # GAME RENDER HERE
         scaled_background = pg.transform.scale(background_image, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
         screen.blit(scaled_background, (0, 0))
